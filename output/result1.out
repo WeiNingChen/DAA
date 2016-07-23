@@ -1,0 +1,164 @@
+Issuer 0 constructing...
+Issuer's public key generating ...
+
+Verifier "A" is created!
+Verifier "B" is created!
+Verifier "C" is created!
+
+Host "John" is created!
+Host "Mary" is created!
+Host "Steve" is created!
+
+The TPM in the host "John" is asking to join by issuer...
+Join protocol is starting...
+The TPM prove to the issuer knowledge of f0, f1, v'...
+The issuer convince to the host that A was correctly computed...
+Join protocol is finished...
+Join successfully!!
+
+Host John's signature for private message of TPM :
+ A :
+14026519948074904784838269836897966468740376683897451475473742381215082835492465495510389958558228442889417994863252467745929422811458069687151285207819816264263127164491805464717443043786155685710370539468980218954044030070169100496466929433483287621620376882469317868565309538194868546681574607022607211128019763297036752612036490173853370600096875446457496885526366336665436726782802467877212682506482227636881270547580328516448879312619863078441108561113323285544447193532512643541322269873267312957459260966196178440421812152896808597620914264551476190658589373084043165869686616523574523910567432346528166137982
+ e :
+300613450595050653169853516389035139504087366260264943450533244356122755214758639857699701509164048844020099011
+
+
+The TPM in the host "Mary" is asking to join by issuer...
+Join protocol is starting...
+The TPM prove to the issuer knowledge of f0, f1, v'...
+The issuer convince to the host that A was correctly computed...
+Join protocol is finished...
+Join successfully!!
+
+Host Mary's signature for private message of TPM :
+ A :
+12266551217356278258314507182844787638441045205043411786567848984987091371576231666190462876234452635712685753691208458518030251465165911065407226659267016633614286811727241630892044382949764050821232882326948757056946893688668587872612703147380423799390531571330138740902581986156424507750759418671605394862250302104599087875747934035117368588982044075650363145139384456634918301678782370317530780638699985257634046422299865600297288788690668152680672126118164041014391989066670870271205821194914901404137804888589551316174743438007737069233309810987294222406088214080720983420424735420944433370225236171114159633843
+ e :
+300613450595050653169853516389035139504087366260264943450533244356122755214931550057451528034745735969568333183
+
+
+The TPM in the host "Steve" is asking to join by issuer...
+Join protocol is starting...
+The TPM prove to the issuer knowledge of f0, f1, v'...
+The issuer convince to the host that A was correctly computed...
+Join protocol is finished...
+Join successfully!!
+
+Host Steve's signature for private message of TPM :
+ A :
+10636967909578773905887646732808061768756086846665981743890953364256470793385124246072069363207515935870506164505445942896645666520960892786311968214764672109980395175417665823257918172291783967499056918765002981931602519159795077308829779382159684264356304087310460157462514376596000341861525138616993071006348742997797696556752028080506304680251347112271915668614106125331018099427170601398397318299555078704585364920040642956585415183252701386766026731715988581344974017929854763683721449011039162561204720085439238532607984115248700788621130744755977260104840118400028196392232356628002984105783587829147399695982
+ e :
+300613450595050653169853516389035139504087366260264943450533244356122755215050466091853770577405011065481129609
+
+
+Host "John" adds verifier A ...
+Verifier "A" verify host John's certificate...
+Adding certificate...
+Verify successfully!!
+
+Host "John" adds verifier B ...
+Verifier "B" verify host John's certificate...
+Adding certificate...
+Verify successfully!!
+
+Host "John" adds verifier C ...
+Verifier "C" verify host John's certificate...
+Adding certificate...
+Verify successfully!!
+
+Host "Mary" adds verifier A ...
+Verifier "A" verify host Mary's certificate...
+Adding certificate...
+Verify successfully!!
+
+Host "Mary" adds verifier B ...
+Verifier "B" verify host Mary's certificate...
+Adding certificate...
+Verify successfully!!
+
+Host "Mary" adds verifier C ...
+Verifier "C" verify host Mary's certificate...
+Adding certificate...
+Verify successfully!!
+
+Host "Steve" adds verifier A ...
+Verifier "A" verify host Steve's certificate...
+Adding certificate...
+Verify successfully!!
+
+Host "Steve" adds verifier B ...
+Verifier "B" verify host Steve's certificate...
+Adding certificate...
+Verify successfully!!
+
+Host "Steve" adds verifier C ...
+Verifier "C" verify host Steve's certificate...
+Adding certificate...
+Verify successfully!!
+
+==========================================================
+=            Verifier List of Host "John"                =
+==========================================================
+= A                                                      =
+= Certificate : 4e686b7b569428e97172a7bfebeb87a067101734 =
+=                                                        =
+= B                                                      =
+= Certificate : 7ec972a0d1c8cebccb16c78917396fef13d0672f =
+=                                                        =
+= C                                                      =
+= Certificate : 35c7455fda7b641c017cdefccd4962028e4610a1 =
+=                                                        =
+==========================================================
+
+
+==========================================================
+=            Verifier List of Host "Mary"                =
+==========================================================
+= A                                                      =
+= Certificate : 7c12630f5ef90270e594eb17d80c297fc740ac24 =
+=                                                        =
+= B                                                      =
+= Certificate : 26ae0ece0cf489d4744415dc8ce3fd3dcb6c3b16 =
+=                                                        =
+= C                                                      =
+= Certificate : a3322343f8da290539f7452c1f09d1c47ccd5c78 =
+=                                                        =
+==========================================================
+
+
+==========================================================
+=            Verifier List of Host "Steve"               =
+==========================================================
+= A                                                      =
+= Certificate : 5f1a3e5cbac5a9a2372e9bd12b09ff0eb726f008 =
+=                                                        =
+= B                                                      =
+= Certificate : b1885a0e27b51a32327575c8ede6e92a68cabb95 =
+=                                                        =
+= C                                                      =
+= Certificate : 1a5759392a0d17ff68615ed342b546b338163f57 =
+=                                                        =
+==========================================================
+
+
+===========================================
+=             Verifier List               =
+===========================================
+= A                                       =
+= B                                       =
+= C                                       =
+___________________________________________
+= Total: 3                                =
+===========================================
+
+===========================================
+=               Host List                 =
+===========================================
+= John                                    =
+= Mary                                    =
+= Steve                                   =
+___________________________________________
+
+= Total: 3                                =
+===========================================
+
