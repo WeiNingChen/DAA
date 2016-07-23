@@ -1,4 +1,4 @@
-##An implementation of Direct Anonymous Atestation
+##An implementation of Direct Anonymous Attestation
 This is an implementation followed from the work by *Ernie Brickell* et al.
 <br>
 For the detailed information, one can refer to [the paper](https://eprint.iacr.org/2004/205.pdf)
